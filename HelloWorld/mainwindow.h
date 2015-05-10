@@ -20,8 +20,6 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
-    MidiInput *mi;
-
     HelloWorld_Canvas *canvas;
 
 
